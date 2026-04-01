@@ -8,9 +8,9 @@ def func1():
     print('You added',len(lst),'numbers.')
     return lst
 
-def func2(info):
+def func2(data):
     print('Here is the data:')
-    print(info)
+    print(data)
 
     selection = ''
     while True:

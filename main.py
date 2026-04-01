@@ -6,11 +6,11 @@ def func1():
         lst.append(inpNum)
         inpNum = int(input('num:'))
     print('You added',len(lst),'numbers.')
-    return thing
+    return lst
 
-def func2(data):
+def func2(info):
     print('Here is the data:')
-    print(data)
+    print(info)
 
     selection = ''
     while True:

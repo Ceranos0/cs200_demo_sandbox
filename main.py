@@ -6,7 +6,7 @@ def func1():
         lst.append(inpNum)
         inpNum = int(input('num:'))
     print('You added',len(lst),'numbers.')
-    return lst
+    return thing
 
 def func2(data):
     print('Here is the data:')

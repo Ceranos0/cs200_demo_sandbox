@@ -1,3 +1,13 @@
+
+def foo(x,y):
+    return (x*y) + 1.00000
+
+def boo(x,y):
+    return (x + y) + 1.00000
+
+def bar(x,y):
+    return (x/y) + 2.00000
+
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')

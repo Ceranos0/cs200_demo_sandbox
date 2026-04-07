@@ -20,5 +20,5 @@ def test_boo():
 def test_bar():
     assert main.bar(24, 6) == 6
     assert main.bar(10, 2) == 7
-
+    assert main.bar(0, 1) == 2
 

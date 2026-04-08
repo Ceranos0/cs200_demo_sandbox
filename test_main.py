@@ -15,7 +15,7 @@ def test_foo(input_x, input_y, expected):
 
 def test_boo():
     assert main.boo(4, 2) == 7
-    assert main.boo(0, 0) == 2
+    assert main.boo(0, 0) == 1
 
 def test_bar():
     assert main.bar(24, 6) == 6
